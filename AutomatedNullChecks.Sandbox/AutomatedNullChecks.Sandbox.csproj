@@ -51,6 +51,12 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AutomatedNullChecks\AutomatedNullChecks.csproj">
+      <Project>{10315817-2eca-4d89-8163-ef557df9bed1}</Project>
+      <Name>AutomatedNullChecks</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
